@@ -1,0 +1,19 @@
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+# Builds
+build/
+dist/
+# Data/figs generated
+artifacts/data/*.csv
+!artifacts/data/ab_shape_resonance_poles.csv
+artifacts/figs/*
+# LaTeX build products
+latex/*.aux
+latex/*.log
+latex/*.out
+latex/*.bbl
+latex/*.blg
+latex/*.synctex.gz

@@ -1,0 +1,21 @@
+
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: |
+          python scripts/washboard_agmon.py --EJ 1.0 --EC 0.02 --etas 0.90 0.93 --csv artifacts/data/washboard_escape_rates.csv
+          python scripts/ab_shape_resonances.py --R 1.0 --m 0 1 --alpha 0.0 0.25 --xrange 0.5 8.0 --yrange -2.5 -0.05 --csv artifacts/data/ab_shape_resonance_poles.csv
+      - run: python scripts/make_checksums.py
+      - run: python -m pytest -q

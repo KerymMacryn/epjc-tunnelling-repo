@@ -1,0 +1,15 @@
+{
+  "cff-version": "1.2.0",
+  "message": "If you use this repository, please cite it as below.",
+  "title": "EPJC Tunnelling & Spectral Geometry \u2014 Reproducible Repository",
+  "authors": [
+    {
+      "family-names": "YourSurname",
+      "given-names": "YourName"
+    }
+  ],
+  "date-released": "2025-10-12",
+  "version": "v1.0.0",
+  "license": "MIT",
+  "repository-code": "https://github.com/USER/epjc-tunnelling-repo"
+}

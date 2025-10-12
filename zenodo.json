@@ -1,0 +1,26 @@
+{
+  "title": "EPJC Tunnelling & Spectral Geometry \u2014 Reproducible Repository",
+  "upload_type": "dataset",
+  "creators": [
+    {
+      "name": "YourName, YourSurname"
+    }
+  ],
+  "description": "Code, data, and LaTeX artifacts to reproduce the EPJC manuscript results.",
+  "keywords": [
+    "EPJC",
+    "Agmon",
+    "Weitzenb\u00f6ck",
+    "tunnelling",
+    "Aharonov-Bohm",
+    "spectral geometry"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "notes": "Create a release on GitHub and let Zenodo archive it to mint a DOI."
+}
