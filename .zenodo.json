@@ -3,14 +3,14 @@
   "upload_type": "dataset",
   "creators": [
     {
-      "name": "YourName, YourSurname"
+      "name": "H.M. Makraini, Mohamed"
     }
   ],
-  "description": "Code, data, and LaTeX artifacts to reproduce the EPJC manuscript results.",
+  "description": "Code, data, and LaTeX artIFACTS to reproduce the EPJC manuscript results.",
   "keywords": [
     "EPJC",
     "Agmon",
-    "Weitzenb\u00f6ck",
+    "Weitzenböck",
     "tunnelling",
     "Aharonov-Bohm",
     "spectral geometry"

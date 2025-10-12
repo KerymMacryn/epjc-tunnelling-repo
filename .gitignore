@@ -7,9 +7,9 @@ __pycache__/
 build/
 dist/
 # Data/figs generated
-artifacts/data/*.csv
-!artifacts/data/ab_shape_resonance_poles.csv
-artifacts/figs/*
+art/data/*.csv
+!art/data/ab_shape_res_poles.csv
+art/figs/*
 # LaTeX build products
 latex/*.aux
 latex/*.log
