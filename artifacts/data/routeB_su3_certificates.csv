@@ -1,0 +1,4 @@
+sector,profile_id,profile_name,a_param,Kstar_int,C_d_int,grad_phi_sup,lambda1_lower_bound,disc_error,domain_error,certificate_margin
+SU(3),1,cosine,0.5,0.6,0.8,1.5707963267948966,-1.3739208802178715,0.01,0.01,-1.3939208802178715
+SU(3),2,gaussian,1.0,0.6,0.8,3.032653298563167,-6.757588823428846,0.01,0.01,-6.777588823428846
+SU(3),3,tophat,1.5,0.6,0.8,0.0015,0.5999981999999999,0.01,0.01,0.5799981999999999
