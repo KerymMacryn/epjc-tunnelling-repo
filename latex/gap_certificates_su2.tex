@@ -1,0 +1,18 @@
+
+% SU(2) gap certificates (auto-typeset from CSV)
+\pgfplotstableset{col sep=comma}
+\pgfplotstabletypeset[
+  columns={profile_id,profile_name,a_param,Kstar_int,C_d_int,grad_phi_sup,lambda1_lower_bound,disc_error,domain_error,certificate_margin},
+  columns/profile_id/.style={column name={ID}},
+  columns/profile_name/.style={column name={Profile}},
+  columns/a_param/.style={column name={$a$}, fixed, precision=2},
+  columns/Kstar_int/.style={column name={$K_\ast^{\mathrm{int}}$}, fixed, precision=3},
+  columns/C_d_int/.style={column name={$C_d^{\mathrm{int}}$}, fixed, precision=3},
+  columns/grad_phi_sup/.style={column name={$\|\nabla\phi\|_\infty$}, fixed, precision=3},
+  columns/lambda1_lower_bound/.style={column name={$\underline{\lambda}_1$}, fixed, precision=3},
+  columns/disc_error/.style={column name={disc.}},
+  columns/domain_error/.style={column name={domain}},
+  columns/certificate_margin/.style={column name={margin}, fixed, precision=3},
+  every head row/.style={before row=\toprule, after row=\midrule},
+  every last row/.style={after row=\bottomrule}
+]{data/routeB_su2_certificates.csv}
