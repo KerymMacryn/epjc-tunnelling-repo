@@ -1,2 +1,7 @@
+<<<<<<< HEAD:art/data/bar_1d_scan.csv
 E,S_Agmon,T_exact,T_WKB,rel_error
 0.35,0.806225774829855,0.5310388491654773,0.19939817984416838,0.6245130084973617
+=======
+E,S_Agmon,T_exact,T_WKB,rel_error
+0.35,0.806225774829855,0.5310388491654773,0.19939817984416838,0.6245130084973617
+>>>>>>> origin/main:artifacts/data/bar_1d_scan.csv
